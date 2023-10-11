@@ -1,0 +1,12 @@
+{
+  "case_folder":
+          "tc/tc_FORCE_ELF/",
+  "elf_path_list":
+          "",
+  "sim_cmd_log":
+          "sim_cmd_log",
+  "is_spike":
+          true,
+  "is_elf":
+          true
+}

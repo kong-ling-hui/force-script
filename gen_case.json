@@ -1,0 +1,32 @@
+{
+  "case_folders":
+          ["/nfs/home/konglinghui/force-riscv/examples/riscv/", "/nfs/home/konglinghui/force-riscv/examples/tutorial/"],
+  "des_folder":
+          "/nfs/home/konglinghui/force-script/des_folder",
+  "repetitions_percase":
+          3,
+  "seed":
+          "",
+  "cp_folder":
+          "/nfs/home/konglinghui/force-script/des_folder/cp_folder",
+  "elffile_name":
+          "elffile_name",
+  "elffile_path":
+          "elffile_path",
+  "config_file":
+          "/nfs/home/konglinghui/force-riscv/config/riscv_rv64_sv39.config",
+  "force_dir":
+          "/nfs/home/konglinghui/force-riscv",
+  "clear_des_folder":
+          true,
+  "err_cases":
+          "err_case",
+  "gen_command":
+          "gen_command",
+  "percase_pass_rate":
+          "percase_pass_rate",
+  "elf_s":
+          "elf_s",
+  "fail_log":
+          "fail_log"
+}

@@ -1,0 +1,20 @@
+[trace]User specified seed 0x67026533
+[notice]Initial seed = 0x67026533
+[trace]User specified config file "/nfs/home/konglinghui/force-riscv/config/riscv_rv64_sv39.config".
+[notice]FORCE_PATH = /nfs/home/konglinghui/force-riscv
+[notice]Loading config file: /nfs/home/konglinghui/force-riscv/config/riscv_rv64_sv39.config ...
+[notice]Generating using test template "/nfs/home/konglinghui/force-riscv/examples/tutorial/PageFaultSequence.py"...
+[notice]Simulating instructions during test generation.
+[notice]Generate outputs with seed number.
+[notice]Test options specified: handlers_set=Fast.
+[notice]Command line: /nfs/home/konglinghui/force-riscv/bin/friscv -t /nfs/home/konglinghui/force-riscv/examples/tutorial/PageFaultSequence.py -c /nfs/home/konglinghui/force-riscv/config/riscv_rv64_sv39.config -s 0x67026533 -w -l trace -o handlers_set=Fast
+[notice]Simulator API module: '/nfs/home/konglinghui/force-riscv/bin/SimApiHANDCAR.so'.
+[notice]Simulator DLL: '/nfs/home/konglinghui/force-riscv/utils/handcar/handcar_cosim.so'.
+token: -p1
+token: --varch=vlen:512,slen:512,elen:64
+token: --isa=RV64IMAFDCV_zfh
+Received additional options: handcar_cosim, -p1, --varch=vlen:512,slen:512,elen:64, --isa=RV64IMAFDCV_zfh, no_elf, 
+[notice]Simulator Standalone: '/nfs/home/konglinghui/force-riscv/fpix/bin/fpix_riscv'.
+[fail]Error running template: AttributeError: module 'PageFaultSequence' has no attribute 'EnvClass'
+[FAIL]{template-error} in file '../base/src/PyInterface.cc' line 143 func 'RunTest'.
+/nfs/home/konglinghui/force-riscv/bin/friscv -t /nfs/home/konglinghui/force-riscv/examples/tutorial/PageFaultSequence.py -c /nfs/home/konglinghui/force-riscv/config/riscv_rv64_sv39.config -s 0x67026533 -w -l trace -o handlers_set=Fast > PageFaultSequence_0x67026533.log 2>&1 error rate > 50%, stop generate
